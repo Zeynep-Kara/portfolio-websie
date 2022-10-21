@@ -1,0 +1,41 @@
+.contactcontainer{
+    display: flex;
+    flex-direction: column;
+    justify-content:center;
+    align-items: center;
+    text-align: center;
+    margin-top: 20%;
+    margin-bottom: 10%;
+    background-color: rgb(48, 70, 70);
+    color: aliceblue;
+}
+
+.button {
+    background-color:cadetblue;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 5%;
+    margin-bottom: 50px;
+    border-style: hidden;
+    border-width: 3px;
+    border-color: aliceblue;
+    transition: all 1s ;
+}
+
+.button:hover{
+    background-color:rgb(48, 70, 70);
+    border-style: solid;
+    border-width: 3px;
+}
+
+.message{   
+    padding: 20px;
+    background-color: cadetblue;
+    margin-bottom: 50px;
+    color: aliceblue;
+}
